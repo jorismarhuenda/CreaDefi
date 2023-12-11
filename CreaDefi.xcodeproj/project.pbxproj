@@ -16,6 +16,9 @@
 		ECE0CBE32B27694700EEB91A /* CreaDefiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBE22B27694700EEB91A /* CreaDefiTests.swift */; };
 		ECE0CBED2B27694700EEB91A /* CreaDefiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBEC2B27694700EEB91A /* CreaDefiUITests.swift */; };
 		ECE0CBEF2B27694700EEB91A /* CreaDefiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBEE2B27694700EEB91A /* CreaDefiUITestsLaunchTests.swift */; };
+		ECE0CBFD2B2776AC00EEB91A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBFC2B2776AC00EEB91A /* HomeView.swift */; };
+		ECE0CBFF2B2776BC00EEB91A /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBFE2B2776BC00EEB91A /* ChallengeView.swift */; };
+		ECE0CC012B2776CD00EEB91A /* ChallengeActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC002B2776CD00EEB91A /* ChallengeActionButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		ECE0CBE82B27694700EEB91A /* CreaDefiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreaDefiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE0CBEC2B27694700EEB91A /* CreaDefiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaDefiUITests.swift; sourceTree = "<group>"; };
 		ECE0CBEE2B27694700EEB91A /* CreaDefiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaDefiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECE0CBFC2B2776AC00EEB91A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ECE0CBFE2B2776BC00EEB91A /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		ECE0CC002B2776CD00EEB91A /* ChallengeActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeActionButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 		ECE0CBCB2B27694500EEB91A /* CreaDefi */ = {
 			isa = PBXGroup;
 			children = (
+				ECE0CBFB2B2776A000EEB91A /* View */,
 				ECE0CBCC2B27694500EEB91A /* CreaDefiApp.swift */,
 				ECE0CBCE2B27694500EEB91A /* ContentView.swift */,
 				ECE0CBD02B27694700EEB91A /* Assets.xcassets */,
@@ -131,6 +138,16 @@
 				ECE0CBEE2B27694700EEB91A /* CreaDefiUITestsLaunchTests.swift */,
 			);
 			path = CreaDefiUITests;
+			sourceTree = "<group>";
+		};
+		ECE0CBFB2B2776A000EEB91A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECE0CBFC2B2776AC00EEB91A /* HomeView.swift */,
+				ECE0CBFE2B2776BC00EEB91A /* ChallengeView.swift */,
+				ECE0CC002B2776CD00EEB91A /* ChallengeActionButtons.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +282,10 @@
 			files = (
 				ECE0CBD92B27694700EEB91A /* CreaDefi.xcdatamodeld in Sources */,
 				ECE0CBD62B27694700EEB91A /* Persistence.swift in Sources */,
+				ECE0CBFF2B2776BC00EEB91A /* ChallengeView.swift in Sources */,
 				ECE0CBCF2B27694500EEB91A /* ContentView.swift in Sources */,
+				ECE0CBFD2B2776AC00EEB91A /* HomeView.swift in Sources */,
+				ECE0CC012B2776CD00EEB91A /* ChallengeActionButtons.swift in Sources */,
 				ECE0CBCD2B27694500EEB91A /* CreaDefiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
