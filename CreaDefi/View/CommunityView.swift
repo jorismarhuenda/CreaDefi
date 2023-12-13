@@ -30,7 +30,9 @@ struct CommunityListView: View {
         List {
             ForEach(0..<10) { index in
                 // Ici, tu peux personnaliser chaque élément de la liste
-                CommunityListItem()
+                NavigationLink(destination: CommunityDetailsView()) {
+                    CommunityListItem()
+                }
             }
         }
     }
@@ -47,8 +49,40 @@ struct CommunityListItem: View {
             Text("Dessin créatif ou texte inspirant.")
                 .foregroundColor(.gray)
                 .font(.subheadline)
+
+            // Boutons pour interagir avec la création
+            HStack {
+                Button(action: {
+                    // Action pour aimer la création
+                    print("Création aimée!")
+                }) {
+                    Image(systemName: "heart")
+                    Text("J'aime")
+                }
+
+                Button(action: {
+                    // Action pour commenter la création
+                    print("Commentaire ajouté!")
+                }) {
+                    Image(systemName: "bubble.left")
+                    Text("Commenter")
+                }
+            }
+            .foregroundColor(.blue)
         }
         .padding()
+    }
+}
+
+struct CommunityDetailsView: View {
+    var body: some View {
+        VStack {
+            Text("Détails de la Création")
+                .font(.title)
+                .padding()
+
+            // Afficher les détails complets de la création ici
+        }
     }
 }
 

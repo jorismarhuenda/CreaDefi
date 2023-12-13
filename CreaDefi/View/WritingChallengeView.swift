@@ -10,6 +10,7 @@ import SwiftUI
 struct WritingChallengeView: View {
     @State private var text = ""
     @State private var wordCount = 0
+    @State private var isAlertPresented = false
 
     var body: some View {
         VStack {
@@ -39,6 +40,18 @@ struct WritingChallengeView: View {
                     .cornerRadius(8)
                     .disabled(wordCount < 250)
             }
+
+            // Bouton pour réinitialiser le texte
+            Button(action: {
+                // Action lors du clic sur le bouton Réinitialiser
+                resetText()
+            }) {
+                Text("Réinitialiser")
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.orange)
+                    .cornerRadius(8)
+            }
         }
         .padding()
         .onAppear {
@@ -46,6 +59,13 @@ struct WritingChallengeView: View {
         }
         .onChange(of: text) { _ in
             updateWordCount()
+        }
+        .alert(isPresented: $isAlertPresented) {
+            Alert(
+                title: Text("Erreur"),
+                message: Text("Le défi d'écriture doit contenir au moins 250 mots."),
+                dismissButton: .default(Text("OK"))
+            )
         }
     }
 
@@ -59,12 +79,19 @@ struct WritingChallengeView: View {
     private func publishWritingChallenge() {
         // Vérifier que le nombre de mots atteint la contrainte minimale
         guard wordCount >= 250 else {
-            // Afficher une alerte ou une indication à l'utilisateur sur la contrainte non respectée
+            // Afficher une alerte sur la contrainte non respectée
+            isAlertPresented = true
             return
         }
 
         // Mettre en place les actions nécessaires pour la publication
         print("Défi d'écriture publié!")
+    }
+
+    // Fonction pour réinitialiser le texte
+    private func resetText() {
+        text = ""
+        wordCount = 0
     }
 }
 
