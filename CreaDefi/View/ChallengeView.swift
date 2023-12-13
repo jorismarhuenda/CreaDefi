@@ -20,6 +20,15 @@ struct ChallengeView: View {
                 .multilineTextAlignment(.center)
                 .padding()
 
+            // Utilisation de ChallengeButtons pour les boutons communs
+            ChallengeButtons(
+                acceptAction: { /* Mettre en place les actions nécessaires */ },
+                refuseAction: { /* Mettre en place les actions nécessaires */ },
+                shareAction: { /* Mettre en place les actions nécessaires */ },
+                detailAction: { /* Mettre en place les actions nécessaires */ }
+            )
+            .padding()
+
             // Autres éléments spécifiques au défi
         }
         .padding()

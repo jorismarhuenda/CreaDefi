@@ -22,6 +22,28 @@ struct HomeView: View {
                 ChallengeActionButtons()
                     .padding()
 
+                // Liens vers d'autres vues
+                NavigationLink(destination: TrophiesView()) {
+                    Text("Vos Trophées")
+                        .foregroundColor(.blue)
+                        .padding()
+                }
+                .padding()
+
+                NavigationLink(destination: CommunityView()) {
+                    Text("Communauté")
+                        .foregroundColor(.blue)
+                        .padding()
+                }
+                .padding()
+
+                NavigationLink(destination: UserProfileView()) {
+                    Text("Votre Profil")
+                        .foregroundColor(.blue)
+                        .padding()
+                }
+                .padding()
+
                 // Autres éléments ou fonctionnalités de la HomeView
             }
             .navigationTitle("Accueil")

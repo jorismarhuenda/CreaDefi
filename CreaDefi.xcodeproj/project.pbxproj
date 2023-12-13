@@ -19,6 +19,19 @@
 		ECE0CBFD2B2776AC00EEB91A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBFC2B2776AC00EEB91A /* HomeView.swift */; };
 		ECE0CBFF2B2776BC00EEB91A /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBFE2B2776BC00EEB91A /* ChallengeView.swift */; };
 		ECE0CC012B2776CD00EEB91A /* ChallengeActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC002B2776CD00EEB91A /* ChallengeActionButtons.swift */; };
+		ECE0CC032B2A164800EEB91A /* DrawingCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC022B2A164800EEB91A /* DrawingCanvas.swift */; };
+		ECE0CC052B2A16F700EEB91A /* CreativeChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC042B2A16F700EEB91A /* CreativeChallengeView.swift */; };
+		ECE0CC072B2A177100EEB91A /* WritingChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC062B2A177100EEB91A /* WritingChallengeView.swift */; };
+		ECE0CC092B2A18FA00EEB91A /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC082B2A18FA00EEB91A /* CommunityView.swift */; };
+		ECE0CC0B2B2A198B00EEB91A /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC0A2B2A198B00EEB91A /* UserProfileView.swift */; };
+		ECE0CC0D2B2A19CE00EEB91A /* TrophiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC0C2B2A19CE00EEB91A /* TrophiesView.swift */; };
+		ECE0CC0F2B2A1A3000EEB91A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC0E2B2A1A3000EEB91A /* SettingsView.swift */; };
+		ECE0CC112B2A1A6000EEB91A /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC102B2A1A6000EEB91A /* NotificationsView.swift */; };
+		ECE0CC132B2A1ACA00EEB91A /* TrophyAwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC122B2A1ACA00EEB91A /* TrophyAwardView.swift */; };
+		ECE0CC152B2A1B3200EEB91A /* DragonTrophyAnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC142B2A1B3200EEB91A /* DragonTrophyAnnouncementView.swift */; };
+		ECE0CC172B2A1B8A00EEB91A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC162B2A1B8A00EEB91A /* LoginView.swift */; };
+		ECE0CC1B2B2A1C0600EEB91A /* ChallengeConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC1A2B2A1C0600EEB91A /* ChallengeConfirmationView.swift */; };
+		ECE0CC1D2B2A1DDD00EEB91A /* ChallengeButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC1C2B2A1DDD00EEB91A /* ChallengeButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +67,19 @@
 		ECE0CBFC2B2776AC00EEB91A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ECE0CBFE2B2776BC00EEB91A /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
 		ECE0CC002B2776CD00EEB91A /* ChallengeActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeActionButtons.swift; sourceTree = "<group>"; };
+		ECE0CC022B2A164800EEB91A /* DrawingCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvas.swift; sourceTree = "<group>"; };
+		ECE0CC042B2A16F700EEB91A /* CreativeChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeChallengeView.swift; sourceTree = "<group>"; };
+		ECE0CC062B2A177100EEB91A /* WritingChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingChallengeView.swift; sourceTree = "<group>"; };
+		ECE0CC082B2A18FA00EEB91A /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		ECE0CC0A2B2A198B00EEB91A /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		ECE0CC0C2B2A19CE00EEB91A /* TrophiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophiesView.swift; sourceTree = "<group>"; };
+		ECE0CC0E2B2A1A3000EEB91A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		ECE0CC102B2A1A6000EEB91A /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		ECE0CC122B2A1ACA00EEB91A /* TrophyAwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophyAwardView.swift; sourceTree = "<group>"; };
+		ECE0CC142B2A1B3200EEB91A /* DragonTrophyAnnouncementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonTrophyAnnouncementView.swift; sourceTree = "<group>"; };
+		ECE0CC162B2A1B8A00EEB91A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ECE0CC1A2B2A1C0600EEB91A /* ChallengeConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeConfirmationView.swift; sourceTree = "<group>"; };
+		ECE0CC1C2B2A1DDD00EEB91A /* ChallengeButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +132,7 @@
 			children = (
 				ECE0CBFB2B2776A000EEB91A /* View */,
 				ECE0CBCC2B27694500EEB91A /* CreaDefiApp.swift */,
+				ECE0CC022B2A164800EEB91A /* DrawingCanvas.swift */,
 				ECE0CBCE2B27694500EEB91A /* ContentView.swift */,
 				ECE0CBD02B27694700EEB91A /* Assets.xcassets */,
 				ECE0CBD52B27694700EEB91A /* Persistence.swift */,
@@ -146,6 +173,18 @@
 				ECE0CBFC2B2776AC00EEB91A /* HomeView.swift */,
 				ECE0CBFE2B2776BC00EEB91A /* ChallengeView.swift */,
 				ECE0CC002B2776CD00EEB91A /* ChallengeActionButtons.swift */,
+				ECE0CC1C2B2A1DDD00EEB91A /* ChallengeButtons.swift */,
+				ECE0CC042B2A16F700EEB91A /* CreativeChallengeView.swift */,
+				ECE0CC062B2A177100EEB91A /* WritingChallengeView.swift */,
+				ECE0CC082B2A18FA00EEB91A /* CommunityView.swift */,
+				ECE0CC0A2B2A198B00EEB91A /* UserProfileView.swift */,
+				ECE0CC0C2B2A19CE00EEB91A /* TrophiesView.swift */,
+				ECE0CC0E2B2A1A3000EEB91A /* SettingsView.swift */,
+				ECE0CC102B2A1A6000EEB91A /* NotificationsView.swift */,
+				ECE0CC122B2A1ACA00EEB91A /* TrophyAwardView.swift */,
+				ECE0CC142B2A1B3200EEB91A /* DragonTrophyAnnouncementView.swift */,
+				ECE0CC162B2A1B8A00EEB91A /* LoginView.swift */,
+				ECE0CC1A2B2A1C0600EEB91A /* ChallengeConfirmationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -280,12 +319,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE0CC132B2A1ACA00EEB91A /* TrophyAwardView.swift in Sources */,
 				ECE0CBD92B27694700EEB91A /* CreaDefi.xcdatamodeld in Sources */,
+				ECE0CC072B2A177100EEB91A /* WritingChallengeView.swift in Sources */,
+				ECE0CC1B2B2A1C0600EEB91A /* ChallengeConfirmationView.swift in Sources */,
 				ECE0CBD62B27694700EEB91A /* Persistence.swift in Sources */,
+				ECE0CC152B2A1B3200EEB91A /* DragonTrophyAnnouncementView.swift in Sources */,
 				ECE0CBFF2B2776BC00EEB91A /* ChallengeView.swift in Sources */,
+				ECE0CC052B2A16F700EEB91A /* CreativeChallengeView.swift in Sources */,
+				ECE0CC092B2A18FA00EEB91A /* CommunityView.swift in Sources */,
 				ECE0CBCF2B27694500EEB91A /* ContentView.swift in Sources */,
+				ECE0CC0F2B2A1A3000EEB91A /* SettingsView.swift in Sources */,
+				ECE0CC0B2B2A198B00EEB91A /* UserProfileView.swift in Sources */,
+				ECE0CC0D2B2A19CE00EEB91A /* TrophiesView.swift in Sources */,
+				ECE0CC172B2A1B8A00EEB91A /* LoginView.swift in Sources */,
 				ECE0CBFD2B2776AC00EEB91A /* HomeView.swift in Sources */,
+				ECE0CC1D2B2A1DDD00EEB91A /* ChallengeButtons.swift in Sources */,
+				ECE0CC112B2A1A6000EEB91A /* NotificationsView.swift in Sources */,
 				ECE0CC012B2776CD00EEB91A /* ChallengeActionButtons.swift in Sources */,
+				ECE0CC032B2A164800EEB91A /* DrawingCanvas.swift in Sources */,
 				ECE0CBCD2B27694500EEB91A /* CreaDefiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
