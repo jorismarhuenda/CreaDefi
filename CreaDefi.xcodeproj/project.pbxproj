@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1394839563595512C43540F0 /* libPods-CreaDefi-CreaDefiUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0128B0458F0577FCA240F438 /* libPods-CreaDefi-CreaDefiUITests.a */; };
+		364A4778D281A46D092B974A /* libPods-CreaDefiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8606CBD5A6FCCF1FEF5BDF9B /* libPods-CreaDefiTests.a */; };
+		BE180357FCBE4073162261F3 /* libPods-CreaDefi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89652D21ED117E762408535B /* libPods-CreaDefi.a */; };
 		ECE0CBCD2B27694500EEB91A /* CreaDefiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBCC2B27694500EEB91A /* CreaDefiApp.swift */; };
 		ECE0CBCF2B27694500EEB91A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBCE2B27694500EEB91A /* ContentView.swift */; };
 		ECE0CBD12B27694700EEB91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE0CBD02B27694700EEB91A /* Assets.xcassets */; };
@@ -16,22 +19,8 @@
 		ECE0CBE32B27694700EEB91A /* CreaDefiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBE22B27694700EEB91A /* CreaDefiTests.swift */; };
 		ECE0CBED2B27694700EEB91A /* CreaDefiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBEC2B27694700EEB91A /* CreaDefiUITests.swift */; };
 		ECE0CBEF2B27694700EEB91A /* CreaDefiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBEE2B27694700EEB91A /* CreaDefiUITestsLaunchTests.swift */; };
-		ECE0CBFD2B2776AC00EEB91A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBFC2B2776AC00EEB91A /* HomeView.swift */; };
-		ECE0CBFF2B2776BC00EEB91A /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBFE2B2776BC00EEB91A /* ChallengeView.swift */; };
-		ECE0CC012B2776CD00EEB91A /* ChallengeActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC002B2776CD00EEB91A /* ChallengeActionButtons.swift */; };
-		ECE0CC032B2A164800EEB91A /* DrawingCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC022B2A164800EEB91A /* DrawingCanvas.swift */; };
-		ECE0CC052B2A16F700EEB91A /* CreativeChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC042B2A16F700EEB91A /* CreativeChallengeView.swift */; };
-		ECE0CC072B2A177100EEB91A /* WritingChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC062B2A177100EEB91A /* WritingChallengeView.swift */; };
-		ECE0CC092B2A18FA00EEB91A /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC082B2A18FA00EEB91A /* CommunityView.swift */; };
-		ECE0CC0B2B2A198B00EEB91A /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC0A2B2A198B00EEB91A /* UserProfileView.swift */; };
-		ECE0CC0D2B2A19CE00EEB91A /* TrophiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC0C2B2A19CE00EEB91A /* TrophiesView.swift */; };
-		ECE0CC0F2B2A1A3000EEB91A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC0E2B2A1A3000EEB91A /* SettingsView.swift */; };
-		ECE0CC112B2A1A6000EEB91A /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC102B2A1A6000EEB91A /* NotificationsView.swift */; };
-		ECE0CC132B2A1ACA00EEB91A /* TrophyAwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC122B2A1ACA00EEB91A /* TrophyAwardView.swift */; };
-		ECE0CC152B2A1B3200EEB91A /* DragonTrophyAnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC142B2A1B3200EEB91A /* DragonTrophyAnnouncementView.swift */; };
-		ECE0CC172B2A1B8A00EEB91A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC162B2A1B8A00EEB91A /* LoginView.swift */; };
-		ECE0CC1B2B2A1C0600EEB91A /* ChallengeConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC1A2B2A1C0600EEB91A /* ChallengeConfirmationView.swift */; };
-		ECE0CC1D2B2A1DDD00EEB91A /* ChallengeButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC1C2B2A1DDD00EEB91A /* ChallengeButtons.swift */; };
+		ECE0CC1F2B2B70B500EEB91A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC1E2B2B70B500EEB91A /* LoginView.swift */; };
+		ECE0CC212B2B72DF00EEB91A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC202B2B72DF00EEB91A /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0128B0458F0577FCA240F438 /* libPods-CreaDefi-CreaDefiUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CreaDefi-CreaDefiUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BB3465AD26631F6B395591 /* Pods-CreaDefi-CreaDefiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreaDefi-CreaDefiUITests.release.xcconfig"; path = "Target Support Files/Pods-CreaDefi-CreaDefiUITests/Pods-CreaDefi-CreaDefiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		27F3E5646E7A4B33CFB28ADF /* Pods-CreaDefiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreaDefiTests.release.xcconfig"; path = "Target Support Files/Pods-CreaDefiTests/Pods-CreaDefiTests.release.xcconfig"; sourceTree = "<group>"; };
+		381AAA56143138E4EF96FFE2 /* Pods-CreaDefi-CreaDefiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreaDefi-CreaDefiUITests.debug.xcconfig"; path = "Target Support Files/Pods-CreaDefi-CreaDefiUITests/Pods-CreaDefi-CreaDefiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		655EA51ACCD214C699617E9B /* Pods-CreaDefi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreaDefi.release.xcconfig"; path = "Target Support Files/Pods-CreaDefi/Pods-CreaDefi.release.xcconfig"; sourceTree = "<group>"; };
+		6EC4508B95EEEC40BA1E4589 /* Pods-CreaDefi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreaDefi.debug.xcconfig"; path = "Target Support Files/Pods-CreaDefi/Pods-CreaDefi.debug.xcconfig"; sourceTree = "<group>"; };
+		8606CBD5A6FCCF1FEF5BDF9B /* libPods-CreaDefiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CreaDefiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89652D21ED117E762408535B /* libPods-CreaDefi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CreaDefi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFD38EA5361FF1EC3C76FEA /* Pods-CreaDefiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreaDefiTests.debug.xcconfig"; path = "Target Support Files/Pods-CreaDefiTests/Pods-CreaDefiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECE0CBC92B27694500EEB91A /* CreaDefi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreaDefi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE0CBCC2B27694500EEB91A /* CreaDefiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaDefiApp.swift; sourceTree = "<group>"; };
 		ECE0CBCE2B27694500EEB91A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,22 +62,8 @@
 		ECE0CBE82B27694700EEB91A /* CreaDefiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreaDefiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE0CBEC2B27694700EEB91A /* CreaDefiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaDefiUITests.swift; sourceTree = "<group>"; };
 		ECE0CBEE2B27694700EEB91A /* CreaDefiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaDefiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		ECE0CBFC2B2776AC00EEB91A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		ECE0CBFE2B2776BC00EEB91A /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
-		ECE0CC002B2776CD00EEB91A /* ChallengeActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeActionButtons.swift; sourceTree = "<group>"; };
-		ECE0CC022B2A164800EEB91A /* DrawingCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvas.swift; sourceTree = "<group>"; };
-		ECE0CC042B2A16F700EEB91A /* CreativeChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeChallengeView.swift; sourceTree = "<group>"; };
-		ECE0CC062B2A177100EEB91A /* WritingChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingChallengeView.swift; sourceTree = "<group>"; };
-		ECE0CC082B2A18FA00EEB91A /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
-		ECE0CC0A2B2A198B00EEB91A /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
-		ECE0CC0C2B2A19CE00EEB91A /* TrophiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophiesView.swift; sourceTree = "<group>"; };
-		ECE0CC0E2B2A1A3000EEB91A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		ECE0CC102B2A1A6000EEB91A /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
-		ECE0CC122B2A1ACA00EEB91A /* TrophyAwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophyAwardView.swift; sourceTree = "<group>"; };
-		ECE0CC142B2A1B3200EEB91A /* DragonTrophyAnnouncementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonTrophyAnnouncementView.swift; sourceTree = "<group>"; };
-		ECE0CC162B2A1B8A00EEB91A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		ECE0CC1A2B2A1C0600EEB91A /* ChallengeConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeConfirmationView.swift; sourceTree = "<group>"; };
-		ECE0CC1C2B2A1DDD00EEB91A /* ChallengeButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeButtons.swift; sourceTree = "<group>"; };
+		ECE0CC1E2B2B70B500EEB91A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ECE0CC202B2B72DF00EEB91A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE180357FCBE4073162261F3 /* libPods-CreaDefi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364A4778D281A46D092B974A /* libPods-CreaDefiTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +87,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1394839563595512C43540F0 /* libPods-CreaDefi-CreaDefiUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A717B225065A745170F1EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89652D21ED117E762408535B /* libPods-CreaDefi.a */,
+				0128B0458F0577FCA240F438 /* libPods-CreaDefi-CreaDefiUITests.a */,
+				8606CBD5A6FCCF1FEF5BDF9B /* libPods-CreaDefiTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B01E62832C2E3237F96D6F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EC4508B95EEEC40BA1E4589 /* Pods-CreaDefi.debug.xcconfig */,
+				655EA51ACCD214C699617E9B /* Pods-CreaDefi.release.xcconfig */,
+				381AAA56143138E4EF96FFE2 /* Pods-CreaDefi-CreaDefiUITests.debug.xcconfig */,
+				19BB3465AD26631F6B395591 /* Pods-CreaDefi-CreaDefiUITests.release.xcconfig */,
+				EBFD38EA5361FF1EC3C76FEA /* Pods-CreaDefiTests.debug.xcconfig */,
+				27F3E5646E7A4B33CFB28ADF /* Pods-CreaDefiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ECE0CBC02B27694400EEB91A = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +124,8 @@
 				ECE0CBE12B27694700EEB91A /* CreaDefiTests */,
 				ECE0CBEB2B27694700EEB91A /* CreaDefiUITests */,
 				ECE0CBCA2B27694500EEB91A /* Products */,
+				2B01E62832C2E3237F96D6F7 /* Pods */,
+				1A717B225065A745170F1EAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,7 +144,6 @@
 			children = (
 				ECE0CBFB2B2776A000EEB91A /* View */,
 				ECE0CBCC2B27694500EEB91A /* CreaDefiApp.swift */,
-				ECE0CC022B2A164800EEB91A /* DrawingCanvas.swift */,
 				ECE0CBCE2B27694500EEB91A /* ContentView.swift */,
 				ECE0CBD02B27694700EEB91A /* Assets.xcassets */,
 				ECE0CBD52B27694700EEB91A /* Persistence.swift */,
@@ -170,21 +181,8 @@
 		ECE0CBFB2B2776A000EEB91A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ECE0CBFC2B2776AC00EEB91A /* HomeView.swift */,
-				ECE0CBFE2B2776BC00EEB91A /* ChallengeView.swift */,
-				ECE0CC002B2776CD00EEB91A /* ChallengeActionButtons.swift */,
-				ECE0CC1C2B2A1DDD00EEB91A /* ChallengeButtons.swift */,
-				ECE0CC042B2A16F700EEB91A /* CreativeChallengeView.swift */,
-				ECE0CC062B2A177100EEB91A /* WritingChallengeView.swift */,
-				ECE0CC082B2A18FA00EEB91A /* CommunityView.swift */,
-				ECE0CC0A2B2A198B00EEB91A /* UserProfileView.swift */,
-				ECE0CC0C2B2A19CE00EEB91A /* TrophiesView.swift */,
-				ECE0CC0E2B2A1A3000EEB91A /* SettingsView.swift */,
-				ECE0CC102B2A1A6000EEB91A /* NotificationsView.swift */,
-				ECE0CC122B2A1ACA00EEB91A /* TrophyAwardView.swift */,
-				ECE0CC142B2A1B3200EEB91A /* DragonTrophyAnnouncementView.swift */,
-				ECE0CC162B2A1B8A00EEB91A /* LoginView.swift */,
-				ECE0CC1A2B2A1C0600EEB91A /* ChallengeConfirmationView.swift */,
+				ECE0CC1E2B2B70B500EEB91A /* LoginView.swift */,
+				ECE0CC202B2B72DF00EEB91A /* SignUpView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -196,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECE0CBF22B27694700EEB91A /* Build configuration list for PBXNativeTarget "CreaDefi" */;
 			buildPhases = (
+				C2DB0E8A4E6E5D5766A2FD31 /* [CP] Check Pods Manifest.lock */,
 				ECE0CBC52B27694500EEB91A /* Sources */,
 				ECE0CBC62B27694500EEB91A /* Frameworks */,
 				ECE0CBC72B27694500EEB91A /* Resources */,
+				A20AA3C8DB6A14C0AF1D4831 /* [CP] Embed Pods Frameworks */,
+				E22913595CC32CCF3BDF169A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECE0CBF52B27694700EEB91A /* Build configuration list for PBXNativeTarget "CreaDefiTests" */;
 			buildPhases = (
+				48B058B1424989E9784848E7 /* [CP] Check Pods Manifest.lock */,
 				ECE0CBDA2B27694700EEB91A /* Sources */,
 				ECE0CBDB2B27694700EEB91A /* Frameworks */,
 				ECE0CBDC2B27694700EEB91A /* Resources */,
@@ -231,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECE0CBF82B27694700EEB91A /* Build configuration list for PBXNativeTarget "CreaDefiUITests" */;
 			buildPhases = (
+				0185ABEDEBAD089408894A13 /* [CP] Check Pods Manifest.lock */,
 				ECE0CBE42B27694700EEB91A /* Sources */,
 				ECE0CBE52B27694700EEB91A /* Frameworks */,
 				ECE0CBE62B27694700EEB91A /* Resources */,
+				2FE784FCCB79AA35E77EC0C7 /* [CP] Embed Pods Frameworks */,
+				057F5B83B00E3948360C65BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,30 +319,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0185ABEDEBAD089408894A13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CreaDefi-CreaDefiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		057F5B83B00E3948360C65BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreaDefi-CreaDefiUITests/Pods-CreaDefi-CreaDefiUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreaDefi-CreaDefiUITests/Pods-CreaDefi-CreaDefiUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CreaDefi-CreaDefiUITests/Pods-CreaDefi-CreaDefiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FE784FCCB79AA35E77EC0C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreaDefi-CreaDefiUITests/Pods-CreaDefi-CreaDefiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreaDefi-CreaDefiUITests/Pods-CreaDefi-CreaDefiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CreaDefi-CreaDefiUITests/Pods-CreaDefi-CreaDefiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48B058B1424989E9784848E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CreaDefiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20AA3C8DB6A14C0AF1D4831 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreaDefi/Pods-CreaDefi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreaDefi/Pods-CreaDefi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CreaDefi/Pods-CreaDefi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2DB0E8A4E6E5D5766A2FD31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CreaDefi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E22913595CC32CCF3BDF169A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreaDefi/Pods-CreaDefi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreaDefi/Pods-CreaDefi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CreaDefi/Pods-CreaDefi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECE0CBC52B27694500EEB91A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE0CC132B2A1ACA00EEB91A /* TrophyAwardView.swift in Sources */,
 				ECE0CBD92B27694700EEB91A /* CreaDefi.xcdatamodeld in Sources */,
-				ECE0CC072B2A177100EEB91A /* WritingChallengeView.swift in Sources */,
-				ECE0CC1B2B2A1C0600EEB91A /* ChallengeConfirmationView.swift in Sources */,
 				ECE0CBD62B27694700EEB91A /* Persistence.swift in Sources */,
-				ECE0CC152B2A1B3200EEB91A /* DragonTrophyAnnouncementView.swift in Sources */,
-				ECE0CBFF2B2776BC00EEB91A /* ChallengeView.swift in Sources */,
-				ECE0CC052B2A16F700EEB91A /* CreativeChallengeView.swift in Sources */,
-				ECE0CC092B2A18FA00EEB91A /* CommunityView.swift in Sources */,
 				ECE0CBCF2B27694500EEB91A /* ContentView.swift in Sources */,
-				ECE0CC0F2B2A1A3000EEB91A /* SettingsView.swift in Sources */,
-				ECE0CC0B2B2A198B00EEB91A /* UserProfileView.swift in Sources */,
-				ECE0CC0D2B2A19CE00EEB91A /* TrophiesView.swift in Sources */,
-				ECE0CC172B2A1B8A00EEB91A /* LoginView.swift in Sources */,
-				ECE0CBFD2B2776AC00EEB91A /* HomeView.swift in Sources */,
-				ECE0CC1D2B2A1DDD00EEB91A /* ChallengeButtons.swift in Sources */,
-				ECE0CC112B2A1A6000EEB91A /* NotificationsView.swift in Sources */,
-				ECE0CC012B2776CD00EEB91A /* ChallengeActionButtons.swift in Sources */,
-				ECE0CC032B2A164800EEB91A /* DrawingCanvas.swift in Sources */,
+				ECE0CC1F2B2B70B500EEB91A /* LoginView.swift in Sources */,
+				ECE0CC212B2B72DF00EEB91A /* SignUpView.swift in Sources */,
 				ECE0CBCD2B27694500EEB91A /* CreaDefiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +619,7 @@
 		};
 		ECE0CBF32B27694700EEB91A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC4508B95EEEC40BA1E4589 /* Pods-CreaDefi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -520,6 +649,7 @@
 		};
 		ECE0CBF42B27694700EEB91A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 655EA51ACCD214C699617E9B /* Pods-CreaDefi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -549,6 +679,7 @@
 		};
 		ECE0CBF62B27694700EEB91A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFD38EA5361FF1EC3C76FEA /* Pods-CreaDefiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -569,6 +700,7 @@
 		};
 		ECE0CBF72B27694700EEB91A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F3E5646E7A4B33CFB28ADF /* Pods-CreaDefiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -589,6 +721,7 @@
 		};
 		ECE0CBF92B27694700EEB91A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381AAA56143138E4EF96FFE2 /* Pods-CreaDefi-CreaDefiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -607,6 +740,7 @@
 		};
 		ECE0CBFA2B27694700EEB91A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BB3465AD26631F6B395591 /* Pods-CreaDefi-CreaDefiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

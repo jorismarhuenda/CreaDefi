@@ -1,0 +1,6 @@
+module Pods_CreaDefi_CreaDefiUITests {
+  umbrella header "Pods-CreaDefi-CreaDefiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

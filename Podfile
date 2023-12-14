@@ -3,9 +3,20 @@
 
 target 'CreaDefi' do
 
-pod 'Pencilkit'
 
   # Pods for CreaDefi
+
+pod 'Firebase'
+pod 'FirebaseCore'
+pod 'FirebaseAuth'
+pod 'FirebaseFirestore'
+pod 'FirebaseStorage'
+pod 'FirebaseDatabase'
+pod 'Alamofire'
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
+pod 'FBSDKShareKit'
+
 
   target 'CreaDefiTests' do
     inherit! :search_paths
