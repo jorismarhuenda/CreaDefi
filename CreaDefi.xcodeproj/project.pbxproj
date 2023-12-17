@@ -10,6 +10,8 @@
 		1394839563595512C43540F0 /* libPods-CreaDefi-CreaDefiUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0128B0458F0577FCA240F438 /* libPods-CreaDefi-CreaDefiUITests.a */; };
 		364A4778D281A46D092B974A /* libPods-CreaDefiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8606CBD5A6FCCF1FEF5BDF9B /* libPods-CreaDefiTests.a */; };
 		BE180357FCBE4073162261F3 /* libPods-CreaDefi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89652D21ED117E762408535B /* libPods-CreaDefi.a */; };
+		ECB967692B2B7F2D006344F4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB967682B2B7F2C006344F4 /* MainView.swift */; };
+		ECDBE7DB2B2F6D8100A01662 /* ChallengeResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDBE7DA2B2F6D8100A01662 /* ChallengeResponseView.swift */; };
 		ECE0CBCD2B27694500EEB91A /* CreaDefiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBCC2B27694500EEB91A /* CreaDefiApp.swift */; };
 		ECE0CBCF2B27694500EEB91A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBCE2B27694500EEB91A /* ContentView.swift */; };
 		ECE0CBD12B27694700EEB91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE0CBD02B27694700EEB91A /* Assets.xcassets */; };
@@ -21,6 +23,7 @@
 		ECE0CBEF2B27694700EEB91A /* CreaDefiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBEE2B27694700EEB91A /* CreaDefiUITestsLaunchTests.swift */; };
 		ECE0CC1F2B2B70B500EEB91A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC1E2B2B70B500EEB91A /* LoginView.swift */; };
 		ECE0CC212B2B72DF00EEB91A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CC202B2B72DF00EEB91A /* SignUpView.swift */; };
+		ECE0CC232B2B742C00EEB91A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECE0CC222B2B742C00EEB91A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,8 @@
 		8606CBD5A6FCCF1FEF5BDF9B /* libPods-CreaDefiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CreaDefiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89652D21ED117E762408535B /* libPods-CreaDefi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CreaDefi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFD38EA5361FF1EC3C76FEA /* Pods-CreaDefiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreaDefiTests.debug.xcconfig"; path = "Target Support Files/Pods-CreaDefiTests/Pods-CreaDefiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECB967682B2B7F2C006344F4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		ECDBE7DA2B2F6D8100A01662 /* ChallengeResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeResponseView.swift; sourceTree = "<group>"; };
 		ECE0CBC92B27694500EEB91A /* CreaDefi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreaDefi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE0CBCC2B27694500EEB91A /* CreaDefiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaDefiApp.swift; sourceTree = "<group>"; };
 		ECE0CBCE2B27694500EEB91A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +69,7 @@
 		ECE0CBEE2B27694700EEB91A /* CreaDefiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaDefiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ECE0CC1E2B2B70B500EEB91A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		ECE0CC202B2B72DF00EEB91A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		ECE0CC222B2B742C00EEB91A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,7 @@
 				ECE0CBD02B27694700EEB91A /* Assets.xcassets */,
 				ECE0CBD52B27694700EEB91A /* Persistence.swift */,
 				ECE0CBD72B27694700EEB91A /* CreaDefi.xcdatamodeld */,
+				ECE0CC222B2B742C00EEB91A /* GoogleService-Info.plist */,
 				ECE0CBD22B27694700EEB91A /* Preview Content */,
 			);
 			path = CreaDefi;
@@ -183,6 +190,8 @@
 			children = (
 				ECE0CC1E2B2B70B500EEB91A /* LoginView.swift */,
 				ECE0CC202B2B72DF00EEB91A /* SignUpView.swift */,
+				ECB967682B2B7F2C006344F4 /* MainView.swift */,
+				ECDBE7DA2B2F6D8100A01662 /* ChallengeResponseView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,6 +309,7 @@
 			files = (
 				ECE0CBD42B27694700EEB91A /* Preview Assets.xcassets in Resources */,
 				ECE0CBD12B27694700EEB91A /* Assets.xcassets in Resources */,
+				ECE0CC232B2B742C00EEB91A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +472,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECE0CBD92B27694700EEB91A /* CreaDefi.xcdatamodeld in Sources */,
+				ECB967692B2B7F2D006344F4 /* MainView.swift in Sources */,
 				ECE0CBD62B27694700EEB91A /* Persistence.swift in Sources */,
+				ECDBE7DB2B2F6D8100A01662 /* ChallengeResponseView.swift in Sources */,
 				ECE0CBCF2B27694500EEB91A /* ContentView.swift in Sources */,
 				ECE0CC1F2B2B70B500EEB91A /* LoginView.swift in Sources */,
 				ECE0CC212B2B72DF00EEB91A /* SignUpView.swift in Sources */,
@@ -629,6 +641,7 @@
 				DEVELOPMENT_TEAM = B64MGY93X6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CreaDefi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -659,6 +672,7 @@
 				DEVELOPMENT_TEAM = B64MGY93X6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CreaDefi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

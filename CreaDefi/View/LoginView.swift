@@ -14,6 +14,11 @@ struct LoginView: View {
     @State private var password: String = ""
     @State private var showAlert = false
     @State private var alertMessage = ""
+    @Binding var isLoggedIn: Bool
+    
+    init(isLoggedIn: Binding<Bool>) {
+        _isLoggedIn = isLoggedIn
+    }
 
     var body: some View {
         NavigationView {
@@ -67,16 +72,16 @@ struct LoginView: View {
     }
 
     private func loginUser() {
-        Auth.auth().signIn(withEmail: email, password: password) { result, error in
-            if let error = error {
-                self.showAlert(message: error.localizedDescription)
-            } else {
-                // Navigue vers la vue principale après la connexion réussie
-                // Peut-être à la Vue Principale ou au Tableau de Bord
+            Auth.auth().signIn(withEmail: email, password: password) { result, error in
+                if let error = error {
+                    self.showAlert(message: error.localizedDescription)
+                } else {
+                    // Mise à jour de l'état de connexion après la connexion réussie
+                    isLoggedIn = true
+                }
             }
         }
-    }
-
+    
     private func loginWithFacebook() {
         let manager = LoginManager()
 
@@ -105,13 +110,13 @@ struct LoginView: View {
     }
 
     private func showAlert(message: String) {
-        alertMessage = message
-        showAlert = true
+            alertMessage = message
+            showAlert = true
+        }
     }
-}
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        LoginView(isLoggedIn: .constant(false))
     }
 }

@@ -357,11 +357,17 @@ PODS:
     - FBSDKCoreKit (= 12.3.1)
   - Firebase (8.11.0):
     - Firebase/Core (= 8.11.0)
+  - Firebase/Auth (8.11.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 8.11.0)
   - Firebase/Core (8.11.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (~> 8.11.0)
   - Firebase/CoreOnly (8.11.0):
     - FirebaseCore (= 8.11.0)
+  - Firebase/Firestore (8.11.0):
+    - Firebase/CoreOnly
+    - FirebaseFirestore (~> 8.11.0)
   - FirebaseAnalytics (8.11.0):
     - FirebaseAnalytics/AdIdSupport (= 8.11.0)
     - FirebaseCore (~> 8.0)
@@ -500,10 +506,10 @@ DEPENDENCIES:
   - FBSDKLoginKit
   - FBSDKShareKit
   - Firebase
-  - FirebaseAuth
+  - Firebase/Auth
+  - Firebase/Firestore
   - FirebaseCore
   - FirebaseDatabase
-  - FirebaseFirestore
   - FirebaseStorage
 
 SPEC REPOS:
@@ -563,6 +569,6 @@ SPEC CHECKSUMS:
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
 
-PODFILE CHECKSUM: 9b93317e4c2953076136f346bb64e01343b67ed0
+PODFILE CHECKSUM: f77fec14a06091bed8a95834a2970f066a5e4cda
 
 COCOAPODS: 1.11.3
