@@ -1,4 +1,4 @@
-module Pods_CreaDefi {
+framework module Pods_CreaDefi {
   umbrella header "Pods-CreaDefi-umbrella.h"
 
   export *

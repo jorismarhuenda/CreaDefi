@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1394839563595512C43540F0 /* libPods-CreaDefi-CreaDefiUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0128B0458F0577FCA240F438 /* libPods-CreaDefi-CreaDefiUITests.a */; };
-		364A4778D281A46D092B974A /* libPods-CreaDefiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8606CBD5A6FCCF1FEF5BDF9B /* libPods-CreaDefiTests.a */; };
-		BE180357FCBE4073162261F3 /* libPods-CreaDefi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89652D21ED117E762408535B /* libPods-CreaDefi.a */; };
+		19C9F1F33A0A5448E19E1C43 /* Pods_CreaDefi_CreaDefiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4B4F92EB49E267054086C2 /* Pods_CreaDefi_CreaDefiUITests.framework */; };
+		CFD57E9AC630D5E0C6877C65 /* Pods_CreaDefi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9A3A64EDBE37D58E506BC3 /* Pods_CreaDefi.framework */; };
+		D6F9283385B0B4653CC0060D /* Pods_CreaDefiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D7B213B29661AFBD421711 /* Pods_CreaDefiTests.framework */; };
 		ECB967692B2B7F2D006344F4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB967682B2B7F2C006344F4 /* MainView.swift */; };
 		ECDBE7DB2B2F6D8100A01662 /* ChallengeResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDBE7DA2B2F6D8100A01662 /* ChallengeResponseView.swift */; };
+		ECDBE7DD2B39E84300A01662 /* UserChallengesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDBE7DC2B39E84300A01662 /* UserChallengesView.swift */; };
+		ECDBE7DF2B39EBB400A01662 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDBE7DE2B39EBB400A01662 /* ForgotPasswordView.swift */; };
+		ECDBE7E12B39ED9B00A01662 /* TrophiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDBE7E02B39ED9B00A01662 /* TrophiesView.swift */; };
+		ECDBE7E32B39EDAF00A01662 /* PersonalStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDBE7E22B39EDAF00A01662 /* PersonalStatsView.swift */; };
 		ECE0CBCD2B27694500EEB91A /* CreaDefiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBCC2B27694500EEB91A /* CreaDefiApp.swift */; };
 		ECE0CBCF2B27694500EEB91A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0CBCE2B27694500EEB91A /* ContentView.swift */; };
 		ECE0CBD12B27694700EEB91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE0CBD02B27694700EEB91A /* Assets.xcassets */; };
@@ -44,17 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0128B0458F0577FCA240F438 /* libPods-CreaDefi-CreaDefiUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CreaDefi-CreaDefiUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BB3465AD26631F6B395591 /* Pods-CreaDefi-CreaDefiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreaDefi-CreaDefiUITests.release.xcconfig"; path = "Target Support Files/Pods-CreaDefi-CreaDefiUITests/Pods-CreaDefi-CreaDefiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1D9A3A64EDBE37D58E506BC3 /* Pods_CreaDefi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreaDefi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F3E5646E7A4B33CFB28ADF /* Pods-CreaDefiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreaDefiTests.release.xcconfig"; path = "Target Support Files/Pods-CreaDefiTests/Pods-CreaDefiTests.release.xcconfig"; sourceTree = "<group>"; };
 		381AAA56143138E4EF96FFE2 /* Pods-CreaDefi-CreaDefiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreaDefi-CreaDefiUITests.debug.xcconfig"; path = "Target Support Files/Pods-CreaDefi-CreaDefiUITests/Pods-CreaDefi-CreaDefiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		655EA51ACCD214C699617E9B /* Pods-CreaDefi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreaDefi.release.xcconfig"; path = "Target Support Files/Pods-CreaDefi/Pods-CreaDefi.release.xcconfig"; sourceTree = "<group>"; };
 		6EC4508B95EEEC40BA1E4589 /* Pods-CreaDefi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreaDefi.debug.xcconfig"; path = "Target Support Files/Pods-CreaDefi/Pods-CreaDefi.debug.xcconfig"; sourceTree = "<group>"; };
-		8606CBD5A6FCCF1FEF5BDF9B /* libPods-CreaDefiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CreaDefiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89652D21ED117E762408535B /* libPods-CreaDefi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CreaDefi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4B4F92EB49E267054086C2 /* Pods_CreaDefi_CreaDefiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreaDefi_CreaDefiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D7B213B29661AFBD421711 /* Pods_CreaDefiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreaDefiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFD38EA5361FF1EC3C76FEA /* Pods-CreaDefiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreaDefiTests.debug.xcconfig"; path = "Target Support Files/Pods-CreaDefiTests/Pods-CreaDefiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECB967682B2B7F2C006344F4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		ECDBE7DA2B2F6D8100A01662 /* ChallengeResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeResponseView.swift; sourceTree = "<group>"; };
+		ECDBE7DC2B39E84300A01662 /* UserChallengesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChallengesView.swift; sourceTree = "<group>"; };
+		ECDBE7DE2B39EBB400A01662 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		ECDBE7E02B39ED9B00A01662 /* TrophiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophiesView.swift; sourceTree = "<group>"; };
+		ECDBE7E22B39EDAF00A01662 /* PersonalStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalStatsView.swift; sourceTree = "<group>"; };
 		ECE0CBC92B27694500EEB91A /* CreaDefi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreaDefi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE0CBCC2B27694500EEB91A /* CreaDefiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaDefiApp.swift; sourceTree = "<group>"; };
 		ECE0CBCE2B27694500EEB91A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE180357FCBE4073162261F3 /* libPods-CreaDefi.a in Frameworks */,
+				CFD57E9AC630D5E0C6877C65 /* Pods_CreaDefi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364A4778D281A46D092B974A /* libPods-CreaDefiTests.a in Frameworks */,
+				D6F9283385B0B4653CC0060D /* Pods_CreaDefiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1394839563595512C43540F0 /* libPods-CreaDefi-CreaDefiUITests.a in Frameworks */,
+				19C9F1F33A0A5448E19E1C43 /* Pods_CreaDefi_CreaDefiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,9 +111,9 @@
 		1A717B225065A745170F1EAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				89652D21ED117E762408535B /* libPods-CreaDefi.a */,
-				0128B0458F0577FCA240F438 /* libPods-CreaDefi-CreaDefiUITests.a */,
-				8606CBD5A6FCCF1FEF5BDF9B /* libPods-CreaDefiTests.a */,
+				1D9A3A64EDBE37D58E506BC3 /* Pods_CreaDefi.framework */,
+				BA4B4F92EB49E267054086C2 /* Pods_CreaDefi_CreaDefiUITests.framework */,
+				E4D7B213B29661AFBD421711 /* Pods_CreaDefiTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +200,10 @@
 				ECE0CC202B2B72DF00EEB91A /* SignUpView.swift */,
 				ECB967682B2B7F2C006344F4 /* MainView.swift */,
 				ECDBE7DA2B2F6D8100A01662 /* ChallengeResponseView.swift */,
+				ECDBE7DC2B39E84300A01662 /* UserChallengesView.swift */,
+				ECDBE7DE2B39EBB400A01662 /* ForgotPasswordView.swift */,
+				ECDBE7E02B39ED9B00A01662 /* TrophiesView.swift */,
+				ECDBE7E22B39EDAF00A01662 /* PersonalStatsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,7 +220,6 @@
 				ECE0CBC62B27694500EEB91A /* Frameworks */,
 				ECE0CBC72B27694500EEB91A /* Resources */,
 				A20AA3C8DB6A14C0AF1D4831 /* [CP] Embed Pods Frameworks */,
-				E22913595CC32CCF3BDF169A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,7 +258,6 @@
 				ECE0CBE52B27694700EEB91A /* Frameworks */,
 				ECE0CBE62B27694700EEB91A /* Resources */,
 				2FE784FCCB79AA35E77EC0C7 /* [CP] Embed Pods Frameworks */,
-				057F5B83B00E3948360C65BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -352,23 +362,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		057F5B83B00E3948360C65BE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CreaDefi-CreaDefiUITests/Pods-CreaDefi-CreaDefiUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CreaDefi-CreaDefiUITests/Pods-CreaDefi-CreaDefiUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CreaDefi-CreaDefiUITests/Pods-CreaDefi-CreaDefiUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2FE784FCCB79AA35E77EC0C7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -447,23 +440,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E22913595CC32CCF3BDF169A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CreaDefi/Pods-CreaDefi-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CreaDefi/Pods-CreaDefi-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CreaDefi/Pods-CreaDefi-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -471,13 +447,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDBE7E32B39EDAF00A01662 /* PersonalStatsView.swift in Sources */,
 				ECE0CBD92B27694700EEB91A /* CreaDefi.xcdatamodeld in Sources */,
 				ECB967692B2B7F2D006344F4 /* MainView.swift in Sources */,
 				ECE0CBD62B27694700EEB91A /* Persistence.swift in Sources */,
 				ECDBE7DB2B2F6D8100A01662 /* ChallengeResponseView.swift in Sources */,
 				ECE0CBCF2B27694500EEB91A /* ContentView.swift in Sources */,
+				ECDBE7E12B39ED9B00A01662 /* TrophiesView.swift in Sources */,
+				ECDBE7DD2B39E84300A01662 /* UserChallengesView.swift in Sources */,
 				ECE0CC1F2B2B70B500EEB91A /* LoginView.swift in Sources */,
 				ECE0CC212B2B72DF00EEB91A /* SignUpView.swift in Sources */,
+				ECDBE7DF2B39EBB400A01662 /* ForgotPasswordView.swift in Sources */,
 				ECE0CBCD2B27694500EEB91A /* CreaDefiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

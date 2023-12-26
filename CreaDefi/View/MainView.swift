@@ -16,6 +16,8 @@ struct MainView: View {
     @State private var timeRemaining = 86400 // 24 heures en secondes
     @State private var showAlert = false
     @State private var alertMessage = ""
+    @State private var showingUserChallenges = false
+    @State private var showingPersonalStats = false // Nouvelle variable d'état pour gérer la navigation
 
     var body: some View {
         VStack {
@@ -40,11 +42,15 @@ struct MainView: View {
                 Text("Temps restant : \(timeFormatted(timeRemaining))")
                     .padding()
 
+                NavigationLink(destination: UserChallengesView(), isActive: $showingUserChallenges) {
+                    EmptyView()
+                }
+                .hidden()
+
                 Button(action: {
-                    // Navigue vers la vue de réponse aux énigmes ou aux défis créatifs
-                    // Ajoute la logique nécessaire pour déterminer quel défi est actuellement relevé
-                    // Puis, active la navigation vers la vue suivante
-                    // par exemple, en utilisant la navigationLink ou en modifiant l'état de la vue principale
+                    // Navigue vers la vue d'historique des défis lorsque le défi est relevé
+                    // Peut-être déclencher d'autres logiques spécifiques à l'énigme ou au défi créatif
+                    showingUserChallenges = true
                 }) {
                     Text("Relever le Défi")
                         .padding()
@@ -52,15 +58,19 @@ struct MainView: View {
                         .background(Color.blue)
                         .cornerRadius(10)
                 }
-                
+
                 Button(action: {
-                    // Navigue vers la vue de réponse aux énigmes ou aux défis créatifs
+                    // Navigue vers la vue des Statistiques Personnelles
+                    showingPersonalStats = true
                 }) {
-                    Text("Relever le Défi")
+                    Text("Voir Statistiques")
                         .padding()
                         .foregroundColor(.white)
                         .background(Color.blue)
                         .cornerRadius(10)
+                }
+                .sheet(isPresented: $showingPersonalStats) {
+                    PersonalStatsView()
                 }
             }
         }
@@ -102,11 +112,10 @@ struct MainView: View {
         let hours: Int = totalSeconds / 3600
         let minutes: Int = (totalSeconds % 3600) / 60
         let seconds: Int = totalSeconds % 60
-        
+
         return String(format: "%02d:%02d:%02d", hours, minutes, seconds)
     }
 }
-
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
         MainView()

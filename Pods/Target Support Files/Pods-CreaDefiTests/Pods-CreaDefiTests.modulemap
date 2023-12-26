@@ -1,0 +1,6 @@
+framework module Pods_CreaDefiTests {
+  umbrella header "Pods-CreaDefiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

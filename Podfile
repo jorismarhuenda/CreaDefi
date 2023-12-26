@@ -1,23 +1,21 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '15.5'
 
 target 'CreaDefi' do
-
+  use_frameworks!
 
   # Pods for CreaDefi
-
-pod 'Firebase'
-pod 'FirebaseCore'
-pod 'FirebaseAuth'
-pod 'Firebase/Firestore', '1.6.1'
-pod 'FirebaseStorage'
-pod 'FirebaseDatabase'
-pod 'FirebaseFirestoreSwift'
-pod 'Alamofire'
-pod 'FBSDKCoreKit'
-pod 'FBSDKLoginKit'
-pod 'FBSDKShareKit'
-
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
+  pod 'Firebase/Analytics'
+  pod 'FirebaseFirestoreSwift'
+  pod 'Alamofire'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKShareKit'
 
   target 'CreaDefiTests' do
     inherit! :search_paths
@@ -27,5 +25,4 @@ pod 'FBSDKShareKit'
   target 'CreaDefiUITests' do
     # Pods for testing
   end
-
 end

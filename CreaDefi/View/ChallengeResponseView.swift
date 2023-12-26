@@ -11,7 +11,7 @@ import FirebaseAuth
 
 struct ChallengeResponseView: View {
     @State private var userResponse: String = ""
-    @State private var challengeType: ChallengeType = .enigma // Initialise avec un type d'énigme par défaut
+    @State private var challengeType: ChallengeType = .enigma
     @State private var wordCountError: Bool = false
 
     enum ChallengeType {
@@ -69,43 +69,43 @@ struct ChallengeResponseView: View {
     }
 
     private func checkEnigmaResponse() {
-        let correctAnswer = "RéponseEnigme" // Remplace avec la vraie réponse de l'énigme
+        let correctAnswer = "RéponseEnigme"
         if userResponse.lowercased() == correctAnswer.lowercased() {
-            // La réponse est correcte, tu peux effectuer des actions spécifiques ici
             print("Réponse correcte !")
         } else {
-            // La réponse est incorrecte, tu peux effectuer des actions spécifiques ici
             print("Réponse incorrecte. Essayez à nouveau.")
         }
     }
 
     private func submitCreativeWriting() {
-            let minimumWordCount = 300
-            let currentWordCount = wordCount(userResponse)
+        let minimumWordCount = 300
+        let currentWordCount = wordCount(userResponse)
 
-            if currentWordCount >= minimumWordCount {
-                let userId = Auth.auth().currentUser?.uid // Récupère l'ID de l'utilisateur actuel
-                let challengeRef = Firestore.firestore().collection("challenges") // Nom de la collection sur Firestore
-
-                // Crée un document avec une ID automatique
-                challengeRef.addDocument(data: [
-                    "type": "creativeWriting",
-                    "userId": userId ?? "",
-                    "content": userResponse,
-                    "timestamp": Date()
-                ]) { error in
-                    if let error = error {
-                        print("Erreur lors de l'ajout du défi créatif : \(error.localizedDescription)")
-                    } else {
-                        print("Défi créatif ajouté avec succès à Firestore.")
-                    }
-                }
-            } else {
-                // La nouvelle n'a pas le nombre minimum de mots requis, affiche une erreur
-                wordCountError = true
-                print("La nouvelle doit contenir au moins \(minimumWordCount) mots.")
+        if currentWordCount >= minimumWordCount {
+            guard let userId = Auth.auth().currentUser?.uid else {
+                print("Erreur : L'utilisateur n'est pas connecté.")
+                return
             }
+
+            let challengeRef = Firestore.firestore().collection("challenges")
+
+            challengeRef.addDocument(data: [
+                "type": "creativeWriting",
+                "userId": userId,
+                "content": userResponse,
+                "timestamp": Date()
+            ]) { error in
+                if let error = error {
+                    print("Erreur lors de l'ajout du défi créatif : \(error.localizedDescription)")
+                } else {
+                    print("Défi créatif ajouté avec succès à Firestore.")
+                }
+            }
+        } else {
+            wordCountError = true
+            print("La nouvelle doit contenir au moins \(minimumWordCount) mots.")
         }
+    }
 
     private func wordCount(_ text: String) -> Int {
         let words = text.split { !$0.isLetter }
